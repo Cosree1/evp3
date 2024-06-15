@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://cdn.wallpapersafari.com/42/35/zibEce.jpg);
+ 
+ }
+ ul li{
+    display: inline-block;
+    padding: 40px;
+    
+}
+nav a:hover{
+    background-color: brown;
+    color: azure;
+    font-size: 30px;
+    border-radius: 25px;
+}
+nav{
+    flex-direction: row;
+   padding: 20px;
+    display: flex;
+    height: 20px;
+   justify-content: center ;
+   flex-basis: 50%;
+   font-size: 30px;
+}
+nav ul li{
+    background-color: rgb(169, 95, 30);
+    border-radius: 25px;
+    padding: 5px;
+    hight: 50px;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    text-align: center;
+
+}
+h1{
+    font-size: 100px;
+    color: rgb(187, 101, 15);
+   font-family: cursive;
+   margin: auto;
+}
+.imagen{
+    display: flex;
+    margin-top: 60px;
+  justify-content: center;
+  
+}
+.texto{
+    text-align: center;
+    font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    justify-content: center;
+    
+}
+footer{
+   text-align: center;
+  }
+ 

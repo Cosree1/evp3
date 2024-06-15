@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+   text-align: center;
+   height: 1000px;
+   background-image: url(https://cdn.wallpapersafari.com/42/35/zibEce.jpg);
+   
+}
+article{
+    font-size: 100px;
+    color: rgb(188, 139, 48);
+    font-family: cursive;
+}
+article p{
+    font-size: 50px;
+    
+}
+nav{
+   flex-direction: row;
+  padding: 50px;
+   display: flex;
+   height: 50px;
+  justify-content: center ;
+  flex-basis: 50%;
+  font-size: 30px;
+  
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    display: inline-block;
+    padding: 100px;
+    
+}
+footer{
+    justify-content: center;
+    margin: 100px;
+}
+article h1{
+    color: rgba(209, 30, 87, 0.551);
+}
+nav a:hover{
+    background-color: brown;
+    color: azure;
+    font-size: 30px;
+    border-radius: 25px;
+}
+nav ul li{
+    background-color: rgb(169, 95, 30);
+    border-radius: 25px;
+    padding: 5px;
+    height: 50px;
+    
+}
+h1{
+    padding: 100px;
+}
